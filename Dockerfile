@@ -13,3 +13,4 @@ RUN apt-get -y install vim wget unzip --no-install-recommends
 #RUN apt-get -y install default-jdk --no-install-recommends
 
 RUN apt-get clean
+RUN ln -snf /usr/share/zoneinfo/Asia/Taipei /etc/localtime && echo Asia/Taipei > /etc/timezone
