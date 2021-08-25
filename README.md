@@ -1,1 +1,1 @@
-# debian-clean-java
+# debian-clean-java-git-spigot-latest
